@@ -1,0 +1,39 @@
+@import '../../responsive.scss';
+
+.listPage {
+  display: flex;
+  height: 100%;
+
+  .listContainer {
+    flex: 3;
+    height: 100%;
+
+    .wrapper {
+        padding-right: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        overflow-y: auto;
+        scroll-behavior: smooth;
+        scrollbar-width: none; 
+        
+        scrollbar-color: #aaa #eee;
+        max-height: 100%;
+        padding-bottom: 20px;
+        // height: calc(100vh - 100px);
+
+        &::-webkit-scrollbar {
+          display: none;
+        }
+    }
+  }
+  .mapContainer {
+    flex: 2;
+    height: 100%;
+    background-color: #fcf5f3;
+
+    @include md{
+      display: none;
+    }
+  }
+}
