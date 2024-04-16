@@ -17,7 +17,7 @@ const SinglePage = () => {
                   <img src="/pin.png" alt="location" />
                   <span>{singlePostData.address}</span>
                 </div>
-                <div className="price">{singlePostData.price}</div>
+                <div className="price">${singlePostData.price}</div>
               </div>
               <div className="user">
                 <img src={userData.img} alt="user-image" />
@@ -75,21 +75,21 @@ const SinglePage = () => {
               <img src="/school.png" alt="" />
               <div className="featureText">
                 <span>School</span>
-                <p>250m away</p>
+                <p>250mt away</p>
               </div>
             </div>
             <div className="feature">
               <img src="/pet.png" alt="" />
               <div className="featureText">
                 <span>Bus Stop</span>
-                <p>100m away</p>
+                <p>100mt away</p>
               </div>
             </div>
             <div className="feature">
               <img src="/fee.png" alt="" />
               <div className="featureText">
                 <span>Restaurant</span>
-                <p>200m away</p>
+                <p>200mt away</p>
               </div>
             </div>
           </div>

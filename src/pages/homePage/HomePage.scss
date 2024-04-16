@@ -1,11 +1,13 @@
 @import '../../responsive.scss';
-.homePage{
+
+.homePage {
     display: flex;
     height: 100%;
 
-    .textContainer{
-        flex:3;
-        .wrapper{
+    .textContainer {
+        flex: 3;
+
+        .wrapper {
             padding-right: 100px;
             display: flex;
             flex-direction: column;
@@ -13,41 +15,47 @@
             height: 100%;
             gap: 50px;
 
-            @include md{
-                padding:0;  
+            @include md {
+                padding: 0;
             }
 
-            @include sm{
-                justify-content:flex-start;gap: 25px;  
+            @include sm {
+                justify-content: flex-start;
+                gap: 25px;
             }
 
-            .title{
+            .title {
                 font-size: 60px;
-                @include lg{
-                    font-size: 48px;  
+                background: -webkit-linear-gradient(#4E65FF, #92EFFD);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+
+                @include lg {
+                    font-size: 48px;
                 }
 
-                @include sm{
-                    font-size: 40px;  
+                @include sm {
+                    font-size: 40px;
                 }
             }
 
-            .boxes{
+            .boxes {
                 display: flex;
                 justify-content: space-between;
 
-                @include sm{
+                @include sm {
                     display: none;
                 }
 
-                h1{
+                h1 {
                     font-size: 36px;
-                    @include lg{
-                        font-size: 32px;  
+
+                    @include lg {
+                        font-size: 32px;
                     }
                 }
 
-                h2{
+                h2 {
                     font-size: 20px;
                     font-weight: 300;
                 }
@@ -55,25 +63,27 @@
             }
         }
     }
-    
-    .imageContainer{
+
+    .imageContainer {
         flex: 2;
-        background-color: #fcf5f3;
+        background-color: #8076a3;
         position: relative;
         display: flex;
         align-items: center;
 
-        @include md{
+        @include md {
             display: none;
         }
-        img{
+
+        img {
             width: 115%;
             height: 120%;
             position: absolute;
             right: 0;
-            @include lg{
-                width: 105%;   
-                height: 105%;   
+
+            @include lg {
+                width: 105%;
+                height: 105%;
             }
         }
     }

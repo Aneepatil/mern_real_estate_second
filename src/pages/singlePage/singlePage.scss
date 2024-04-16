@@ -73,7 +73,7 @@
                             display: flex;
                             gap: 5px;
                             align-items: center;
-                            color: #888;
+                            color: #ffffff;
                             font-size: 14px;
 
                             img {
@@ -100,7 +100,7 @@
                         gap: 20px;
                         padding: 0px 50px;
                         border-radius: 10px;
-                        background-color: rgba(254, 205, 81, 0.209);
+                        background-color: rgba(151, 146, 134, 0.209);
                         font-weight: 600;
 
                         @include sm {
@@ -120,6 +120,7 @@
                     margin: 50px 0px;
                     color: #555;
                     line-height: 20px;
+                    color: rgba(0, 255, 255, 0.727);
                 }
             }
         }
@@ -127,7 +128,7 @@
 
     .features {
         flex: 2;
-        background-color: #fcf5f3;
+        background-color: #8076a3;
         height: 100%;
         overflow-y: auto;
         scroll-behavior: smooth;
@@ -172,16 +173,18 @@
                 gap: 10px;
 
                 img {
-                    background-color: rgba(254, 205, 81, 0.209);
+                    background-color: rgba(225, 221, 210, 0.209);
                 }
 
                 .featureText {
                     span {
                         font-weight: bold;
+                        color: midnightblue;
                     }
 
                     p {
                         font-size: 14px;
+                        color: grey;
                     }
                 }
             }
@@ -191,7 +194,7 @@
                 flex-direction: column;
                 gap: 20px;
                 padding: 20px 10px;
-                background-color: white;
+                background-color: rgba(74, 222, 195, 0.863);
                 border-radius: 10px;
             }
 
@@ -199,7 +202,7 @@
                 display: flex;
                 justify-content: space-between;
                 padding: 20px 10px;
-                background-color: white;
+                background-color: rgba(74, 222, 195, 0.863);
                 border-radius: 10px;
             }
 
@@ -215,9 +218,13 @@
                     display: flex;
                     align-items: center;
                     gap: 10px;
-                    background-color: white;
+                    background-color: rgba(74, 222, 195, 0.863);
                     padding: 10px;
                     border-radius: 5px;
+
+                    span{
+                        color: midnightblue;
+                    }
                 }
             }
 
@@ -235,8 +242,8 @@
                     display: flex;
                     align-items: center;
                     gap: 5px;
-                    background-color: white;
-                    border: 1px solid #fece51;
+                    background-color: rgba(74, 222, 195, 0.863);
+                    border: 1px solid #bbb8b1;
                     border-radius: 5px;
                     cursor: pointer;
 

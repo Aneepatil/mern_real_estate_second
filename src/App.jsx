@@ -9,6 +9,7 @@ import LoginPage from "./pages/loginPage/LoginPage";
 import RegisterPage from "./pages/RegisterPage/RegisterPage";
 import SinglePage from "./pages/singlePage/SinglePage";
 import Profile from "./pages/profile/Profile";
+import { UpdateProfile } from "./pages/updateUser/UpdateProfile";
 function App() {
 
   const router = createBrowserRouter([
@@ -44,6 +45,15 @@ function App() {
         //   path: "/contact",
         //   element: <Contact/>,
         // },
+        // {
+        //   path: "/add-new-property",
+        //   element: <NewProperty/>,
+        // },
+        {
+          path: "/update-profile",
+          element: <UpdateProfile/>,
+        },
+        
       ]
     },
     

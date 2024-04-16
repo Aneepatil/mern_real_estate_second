@@ -18,6 +18,7 @@ nav {
     }
   }
 
+
   .left {
     flex: 3;
     display: flex;
@@ -32,7 +33,7 @@ nav {
       gap: 10px;
 
       img {
-        width: 28px;
+        width: 60px;
       }
 
       span {
@@ -51,7 +52,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-color: #fcf5f3;
+    background-color: #8076a3;
     height: 100%;
 
     @include md {
@@ -84,7 +85,9 @@ nav {
 
       .profile{
         padding: 12px 24px;
-        background-color: #fece51;
+        background-color: #2F4F4F;
+        border-radius: 10px;
+        color: #fcf5f3;
         cursor: pointer;
         border: none;
         position: relative;
@@ -107,7 +110,7 @@ nav {
     }
 
     .register {
-      background-color: #fece51;
+      background-color: #2F4F4F;
     }
 
     .menuIcon {
